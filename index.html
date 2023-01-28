@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling/bootstrap.min.css">
+    <link rel="stylesheet" href="styling/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">  
+    <title>Calculator</title>
+</head>
+<body class="light">
+    <div class="wrapper">
+        <header class="navbar">
+            <div class="navbar-container">
+                <div>Web Calculator by Peterson Hall</div>
+                <div class="mode" id="mode">
+                </div>
+            </div>
+        </header>
+        <div class="calculator-container">
+            <div class="calculator" id="calculator">
+                <input type="text" class="number-box" id="number-box">
+                <div class="button-container">
+                    <div class="row">
+                        <div class="button"><div>7</div></div>
+                        <div class="button"><div>8</div></div>
+                        <div class="button"><div>9</div></div>
+                        <div class="button"><div>DEL</div></div>
+                    </div>
+                    <div class="row">
+                        <div class="button"><div>4</div></div>
+                        <div class="button"><div>5</div></div>
+                        <div class="button"><div>6</div></div>
+                        <div class="button"><div>+</div></div>
+                    </div>
+                    <div class="row">
+                        <div class="button"><div>1</div></div>
+                        <div class="button"><div>2</div></div>
+                        <div class="button"><div>3</div></div>
+                        <div class="button"><div>-</div></div>
+                    </div>
+                    <div class="row">
+                        <div class="button"><div>.</div></div>
+                        <div class="button"><div>0</div></div>
+                        <div class="button"><div>÷</div></div>
+                        <div class="button"><div>×</div></div>
+                    </div>
+                    <div class="row">
+                        <div class="button button2"><div>RESET</div></div>
+                        <div class="button button2"><div>=</div></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+    <script src="https://unpkg.com/mathjs/lib/browser/math.js"></script>
+</body>
+</html>
